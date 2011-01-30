@@ -9,7 +9,11 @@ WriteMakefile(
         'Email::Simple' => 0,
         'Email::Folder' => 0,
         'LWP::UserAgent' => 0,
+				'Crypt::SSLeay' => 0,
         'URI' => 0,
+				'Authen::NTLM' => 0,
+				'SOAP::Lite' => 0,
+				'MIME::Base64' => 0,
     }, # e.g., Module::Name => 1.1
     clean => {
         FILES => 'test.config'
